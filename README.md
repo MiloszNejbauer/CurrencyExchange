@@ -3,7 +3,9 @@ Aplikacja mobilna do wymiany walut.
 
 Należy uruchomić backend - folder "demo" - DemoApplication
 
-Należy uruchomić frontend - komenda w terminalu - npx expo start
+Należy uruchomić frontend - komenda w terminalu - 
+npm install
+npx expo start
 
 Aplikacja działa zarówno w przeglądarce jak i na telefonie. Wystarczy zeskanować kod qr telefonem, posiadając aplikację expo go.
 
