@@ -43,7 +43,7 @@ export default function UserPanel() {
       if (!userId) throw new Error("User ID not found");
 
       const response = await fetch(
-        `http://192.168.1.18:8080/api/v1/students/${userId}`
+        `http://192.168.1.18:8443/api/v1/students/${userId}`
       );
       if (!response.ok) throw new Error(`Failed to fetch user data: ${response.status}`);
 

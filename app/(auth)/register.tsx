@@ -45,7 +45,7 @@ export default function RegisterScreen() {
       };
 
       const response = await fetch(
-        "http://192.168.1.18:8080/api/v1/students/register",
+        "https://192.168.1.18:8443/api/v1/students/register",
         {
           method: "POST",
           headers: {

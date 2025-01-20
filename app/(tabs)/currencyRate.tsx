@@ -36,7 +36,7 @@ export default function CurrencyRateScreen() {
   useEffect(() => {
     const fetchRates = async () => {
       try {
-        const response = await fetch('http://192.168.1.18:8080/api/v1/currencies');
+        const response = await fetch('http://192.168.1.18:8443/api/v1/currencies');
         const data: ExchangeRate[] = await response.json();
         setExchangeRates(data || []);
       } catch (error) {

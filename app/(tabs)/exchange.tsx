@@ -58,7 +58,7 @@ export default function Exchange() {
   useEffect(() => {
     const fetchCurrencies = async () => {
       try {
-        const response = await fetch("http://192.168.1.18:8080/api/v1/currencies");
+        const response = await fetch("http://192.168.1.18:8443/api/v1/currencies");
         if (!response.ok) {
           throw new Error(`Failed to fetch currencies: ${response.status}`);
         }

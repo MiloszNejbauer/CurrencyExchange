@@ -41,7 +41,7 @@ export default function HomeScreen() {
     }
 
     try {
-      const url = `http://192.168.1.18:8080/api/v1/students/login?firstName=${encodeURIComponent(
+      const url = `https://192.168.1.18:8443/api/v1/students/login?firstName=${encodeURIComponent(
         firstName
       )}&password=${encodeURIComponent(password)}`;
       const response = await fetch(url, {

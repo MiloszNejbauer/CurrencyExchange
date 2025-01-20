@@ -40,7 +40,7 @@ export default function TransactionHistory() {
       if (!userId) throw new Error("User ID not found");
 
       const response = await fetch(
-        `http://192.168.1.18:8080/api/v1/students/${userId}/transactions`
+        `http://192.168.1.18:8443/api/v1/students/${userId}/transactions`
       );
       if (!response.ok) throw new Error("Failed to fetch transaction history");
 
