@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**").allowedOrigins("http://localhost:8081", "http://192.168.1.36", "http://192.168.1.18:8081/_expo/loading", "exp://192.168.1.18:8081", "https://679008807eb45b2d95360f11--bolokantor.netlify.app").allowedMethods("GET", "POST", "PATCH", "DELETE", "PUT"); // lub IP urządzenia
+        registry.addMapping("/**").allowedOrigins("http://localhost:8081", "http://192.168.1.36", "http://192.168.1.18:8081/_expo/loading", "exp://192.168.1.18:8081", "https://67900cfa0369c646a85493f5--bolokantor.netlify.app").allowedMethods("GET", "POST", "PATCH", "DELETE", "PUT"); // lub IP urządzenia
 
     }
 }
