@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: backend
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free # Wybierz darmowy plan
+    healthCheckPath: /
